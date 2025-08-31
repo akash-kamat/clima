@@ -1,11 +1,8 @@
 # 🌤️ Cli-ma
-
-Hey there 👋  
-This is my **first time trying out Rust** — I wanted to test it by building something practical and fun.  
-Rust turned out to be really nice for making CLI tools 🚀, so I ended up creating **Cli-ma**, a small weather app that looks good and runs fast.  
-
+ 
+This is my **first time trying out Rust** (hehe) — I wanted to test it by building something practical and fun.  
+Rust turned out to be really nice for making CLI stuff
 It fetches real-time weather data from [wttr.in](https://wttr.in/) and displays it with colors, emojis, and a neat little spinner animation ✨.  
-Think of it as a mix of **useful + pretty + geeky vibes** 😎.
 
 ---
 
@@ -28,4 +25,11 @@ Think of it as a mix of **useful + pretty + geeky vibes** 😎.
 ```bash
 git clone https://github.com/akash-kamat/clima.git
 cd clima
+cargo run -- "city-name"
+```
 
+To build:
+```bash
+cargo build --release
+```
+The executable will be in ```target/release/clima.exe``` (for windows)
