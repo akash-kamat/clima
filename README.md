@@ -5,6 +5,8 @@ Rust turned out to be really nice for making CLI stuff
 It fetches real-time weather data from [wttr.in](https://wttr.in/) and displays it with colors, emojis, and a neat little spinner animation ✨.  
 
 ---
+![Cli-ma Screenshot](assets/screenshot.png)
+
 
 ## ✨ Features
 - 🎨 Rich colored output with emojis  
